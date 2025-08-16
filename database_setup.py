@@ -1,6 +1,6 @@
 import sqlite3
 
-DB_FILE = "image_metadata.bd"
+DB_FILE = "image_metadata.db"
 
 conn = sqlite3.connect(DB_FILE)
 
