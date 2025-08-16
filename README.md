@@ -26,7 +26,7 @@ To run this pipeline, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/python-data-pipeline.git
+    git clone https://github.com/thonmay/python-data-pipeline.git
     cd python-data-pipeline
     ```
 
@@ -36,10 +36,10 @@ To run this pipeline, follow these steps:
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     pip install -r requirements.txt
     ```
-    *(You will need to create a `requirements.txt` file by running `pip freeze > requirements.txt` in your activated environment).*
+    
 
 3.  **Add data:**
-    *   Place your raw image files into the `source_data` folder.
+    *   Place your raw image files into the `source_data` folder. (I already put around 1000 images)
 
 4.  **Set up the database:**
     *   This script only needs to be run once to create the database file and table.
