@@ -7,12 +7,12 @@ conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()      # for performing SQL commands
 
 create_table_sql = """
-CREATE TABLE IF NOT EXISTS metadat (
+CREATE TABLE IF NOT EXISTS img_data (
     image_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    file_name TEXT NOT NULL,
+    filename TEXT NOT NULL,
     width INTEGER,
     height INTEGER,
-    size_kb INTEGER NOT NULL,
+    size_kb REAL,
     format TEXT,
     validation_status TEXT NOT NULL ,
     notes TEXT,
